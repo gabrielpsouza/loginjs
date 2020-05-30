@@ -1,6 +1,6 @@
 -- CREATE DATABASE LOGINJS
 
-CREATE TABLE Usuario ( 
+CREATE TABLE Usuarios ( 
 	UserId int NOT NULL auto_increment,
     FirstName varchar(255) NOT NULL,
     LastName varchar(255),
@@ -11,8 +11,8 @@ CREATE TABLE Usuario (
 
 	insert into Usuarios (FirstName, LastName, Age, Senha) values ('Gabriel', 'Souza',19, 'teste')
 
-	delete from Usuario where UserId = 3
+	delete from Usuarios where UserId = 3
 
-	select * from Usuario
+	select * from Usuarios
 
-	drop table Usuario
+	drop table Usuarios
